@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+
+* {
+    font-family: Monserrat, Arial, sans-serif;
+        padding:0;
+    margin:0;
+    /*universal selector with padding 0 and margin 0 means clear slate for creating*/
+}
+
+h1 {
+    color: darkcyan;
+}
+
+img#bird-image {
+    max-width: 70%;
+    /*vw is viewport width unit of measurement*/
+    /*code sourced from: FULL UTS HARVARD*/
+}
+
+a {
+    font-weight: 700;
+    /*makes link text bold*/
+}
+
+.middle {
+    text-align: center;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*to have a centre column, set width, auto margin left and auto margin right*/
+
+.middle h2,
+p {
+    color: cornflowerblue;
+
+}
+
+.middle p{
+   color: lightblue;
+background-color: darkcyan; 
+padding: 20px;
+margin: 20px; 
+}
